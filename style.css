@@ -1,0 +1,41 @@
+
+body {
+  background-color: black;
+  color: #FF1493;
+  font-family: Arial;
+  
+  background-image: url('bg.jpg');
+  background-size: cover;
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+footer {
+    text-align: center;
+}
+.topnav{
+  background-color: black;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #FF1493;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav .active {
+  background-color: black;
+  color: #FF1493;
+}
+.topnav .icon {
+  display: none;
+}
